@@ -32,7 +32,7 @@ def train_model(
         learning_rate: float = 1e-5,
         val_percent: float = 0.1,
         save_checkpoint: bool = True,
-        image_size: tuple = (256, 256),
+        image_size: tuple = (512, 512),
         amp: bool = False,
         weight_decay: float = 1e-8,
         momentum: float = 0.999,
